@@ -1,11 +1,11 @@
 package org.example.patterns.LinkedList.Implemtation;
 
 public class ListNode {
-    int val;
+    public int val;
     public ListNode next;
 
     ListNode() {}
-    ListNode(int data) {
+    public ListNode(int data) {
         this.val = data;
         this.next = null;
     }
